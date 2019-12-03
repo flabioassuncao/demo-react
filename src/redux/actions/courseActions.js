@@ -6,7 +6,7 @@ export function createCourse(course) {
 }
 
 export function loadCourseSuccess(courses) {
-    return { type: types.LOAD_COURSES_SUCCESS, courses }
+    return { type: types.LOAD_COURSES_SUCCESS, courses: courses }
 }
 
 export function loadCourses() {
