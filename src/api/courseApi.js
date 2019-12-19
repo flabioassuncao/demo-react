@@ -18,7 +18,7 @@ export function saveCourse(course) {
 }
 
 export function deleteCourse(courseId) {
-  return fetch(baseUrl + courseId, { method: "DELETE" })
+  return fetch(baseUrl + 1000, { method: "DELETE" })
     .then(handleResponse)
     .catch(handleError);
 }
